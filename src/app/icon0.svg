@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1077)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(1.3717421124828533,0,0,1.3717421124828533,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="729" height="729"><svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="729" height="729" fill="url(#paint0_linear_110_11)"></rect>
-<path d="M590.483 364.241C590.483 489.192 489.192 590.483 364.241 590.483M590.483 364.241C590.483 239.292 489.192 138 364.241 138M590.483 364.241H489.931M364.241 590.483C239.292 590.483 138 489.192 138 364.241M364.241 590.483V489.931M364.241 138C239.292 138 138 239.292 138 364.241M364.241 138V238.552M138 364.241H238.552M364.241 364.241H364.493" stroke="url(#paint1_linear_110_11)" stroke-width="50.2759" stroke-linecap="round" stroke-linejoin="round"></path>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="729" height="729"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="729" height="729"><svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="729" height="729" rx="190" fill="url(#paint0_linear_111_13)"></rect>
+<path d="M580 364.5C580 483.518 483.518 580 364.5 580M580 364.5C580 245.483 483.518 149 364.5 149M580 364.5H484.222M364.5 580C245.483 580 149 483.518 149 364.5M364.5 580V484.222M364.5 149C245.483 149 149 245.483 149 364.5M364.5 149V244.778M149 364.5H244.778M364.5 364.5H364.739" stroke="url(#paint1_linear_111_13)" stroke-width="50.2759" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M544 19H184C92.873 19 19 92.873 19 184V544C19 635.127 92.873 709 184 709H544C635.127 709 709 635.127 709 544V184C709 92.873 635.127 19 544 19Z" stroke="url(#paint2_linear_111_13)" stroke-width="30"></path>
 <defs>
-<linearGradient id="paint0_linear_110_11" x1="0" y1="0" x2="713" y2="729" gradientUnits="userSpaceOnUse">
-<stop stop-color="#56575B"></stop>
-<stop offset="1" stop-color="#323338"></stop>
+<linearGradient id="paint0_linear_111_13" x1="81.5" y1="71.5" x2="656" y2="665.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7174FE"></stop>
+<stop offset="1" stop-color="#555AE8"></stop>
 </linearGradient>
-<linearGradient id="paint1_linear_110_11" x1="550.311" y1="565.81" x2="186.811" y2="213.81" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_111_13" x1="580" y1="543.5" x2="217.5" y2="187" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"></stop>
-<stop offset="1" stop-color="#CCCCCC"></stop>
+<stop offset="1" stop-color="#BABCFF"></stop>
 </linearGradient>
-<clipPath id="SvgjsClipPath1077"><rect width="1000" height="1000" x="0" y="0" rx="300" ry="300"></rect></clipPath></defs>
-</svg></svg></g></g></svg>
+<linearGradient id="paint2_linear_111_13" x1="364" y1="4" x2="364" y2="724" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.12"></stop>
+<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+</linearGradient>
+</defs>
+</svg></svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

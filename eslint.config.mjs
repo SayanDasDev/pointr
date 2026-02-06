@@ -1,6 +1,7 @@
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
 import n from "eslint-plugin-n";
+import react from "eslint-plugin-react";
 import { defineConfig, globalIgnores } from "eslint/config";
 
 const eslintConfig = defineConfig([
@@ -11,6 +12,7 @@ const eslintConfig = defineConfig([
   {
     plugins: {
       n,
+      react,
     },
     rules: {
       "prefer-arrow-callback": "error",
@@ -19,6 +21,7 @@ const eslintConfig = defineConfig([
       quotes: ["error", "double"],
       "n/no-process-env": "error",
       "no-console": "warn",
+      "react/no-unknown-property": "error",
     },
   },
 
