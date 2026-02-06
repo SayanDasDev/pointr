@@ -6,6 +6,7 @@ export default function Page() {
     <div className="container mx-auto">
       <Icons.Logo className="w-12 h-12 mx-auto" />
       <h1 className="text-3xl font-bold text-center">Welcome to Pointr</h1>
+      <div className="w-80 h-40 bg-primary mx-auto border-shine rounded-2xl"></div>
       <Button>Get Started</Button>
     </div>
   );
