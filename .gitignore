@@ -10,6 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 .pnpm-store
+.turbo
 
 # testing
 /coverage
