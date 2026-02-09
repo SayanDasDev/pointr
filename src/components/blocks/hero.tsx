@@ -101,8 +101,8 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="full-width mx-auto mt-12 max-lg:ml-6 max-lg:h-137.5 max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24">
-        <div className="relative h-196 w-[140%] -translate-x-[15%]">
+      <div className="breakout mx-auto mt-12 hidden max-lg:ml-6 max-lg:h-137.5 max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24 lg:block">
+        <div className="relative h-187.5">
           <Image
             src="/assets/hero.jpg"
             alt="hero"
