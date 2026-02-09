@@ -1,7 +1,10 @@
+import { JetBrains_Mono, Nunito_Sans } from "next/font/google";
+
+import type { Metadata } from "next";
+
+import { Footer } from "@/components/blocks/footer";
 import Providers from "@/components/providers";
 import { siteConfig } from "@/config/site";
-import type { Metadata } from "next";
-import { JetBrains_Mono, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
 const nunitoSans = Nunito_Sans({ variable: "--font-sans" });
@@ -30,6 +33,7 @@ export default function RootLayout({
         className={`${nunitoSans.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <Providers>{children}</Providers>
+        <Footer />
       </body>
     </html>
   );

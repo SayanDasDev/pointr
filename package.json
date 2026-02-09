@@ -7,13 +7,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "convex:dev": "pnpm dlx convex dev",
+    "turbo:run": "docker compose up -d && turbo run dev convex:dev --parallel"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
     "@tabler/icons-react": "^3.36.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "convex": "^1.31.7",
     "next": "16.1.6",
     "next-themes": "^0.4.6",
     "react": "19.2.3",
@@ -32,7 +35,10 @@
     "eslint-config-next": "16.1.6",
     "eslint-plugin-n": "^17.23.2",
     "eslint-plugin-react": "^7.37.5",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
+    "turbo": "^2.8.3",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.17.1"
 }

@@ -1,13 +1,15 @@
-import { Icons } from "@/components/icons";
-import { Button } from "@/components/ui/button";
+"use client";
+import { Background } from "@/components/background";
+import { Hero } from "@/components/blocks/hero";
+import { Navbar } from "@/components/blocks/navbar";
 
 export default function Page() {
   return (
-    <div className="container mx-auto">
-      <Icons.Logo className="w-12 h-12 mx-auto" />
-      <h1 className="text-3xl font-bold text-center">Welcome to Pointr</h1>
-      <div className="w-80 h-40 bg-primary mx-auto border-shine rounded-2xl"></div>
-      <Button>Get Started</Button>
-    </div>
+    <>
+      <Navbar />
+      <Background className="via-muted to-muted/80">
+        <Hero />
+      </Background>
+    </>
   );
 }

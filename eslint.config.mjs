@@ -22,6 +22,34 @@ const eslintConfig = defineConfig([
       "n/no-process-env": "error",
       "no-console": "warn",
       "react/no-unknown-property": "error",
+      "import/order": [
+        "error",
+        {
+          groups: [
+            ["builtin", "external"],
+            ["internal", "parent", "sibling", "index"],
+          ],
+          pathGroups: [
+            {
+              pattern: "react",
+              group: "builtin",
+              position: "before",
+            },
+            {
+              pattern: "next/**",
+              group: "builtin",
+              position: "before",
+            },
+            {
+              pattern: "@/**",
+              group: "internal",
+              position: "after",
+            },
+          ],
+          pathGroupsExcludedImportTypes: ["builtin"],
+          "newlines-between": "always",
+        },
+      ],
     },
   },
 
