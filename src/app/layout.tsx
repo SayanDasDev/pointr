@@ -1,4 +1,4 @@
-import { JetBrains_Mono, Nunito_Sans } from "next/font/google";
+import { JetBrains_Mono, Nunito, Nunito_Sans } from "next/font/google";
 
 import type { Metadata } from "next";
 
@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site";
 import "./globals.css";
 
 const nunitoSans = Nunito_Sans({ variable: "--font-sans" });
+const nunito = Nunito({ variable: "--font-nunito" });
 
 const jetBrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
@@ -29,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${nunitoSans.variable} ${jetBrainsMono.variable} antialiased`}
+        className={`${nunitoSans.variable} ${nunito.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <Providers>{children}</Providers>
       </body>

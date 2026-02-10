@@ -62,6 +62,7 @@ export const Hero = () => {
               className="from-background gap-2 bg-linear-to-r to-transparent shadow-md"
             >
               <Link
+                target="_blank"
                 href="https://github.com/SayanDasDev/pointr"
                 className="flex max-w-56 gap-1 truncate text-start md:max-w-none"
               >

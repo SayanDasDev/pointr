@@ -10,5 +10,5 @@
     "*.css": "tailwindcss"
   },
   "editor.tabSize": 2,
-  "cSpell.words": ["Pointr"]
+  "cSpell.words": ["nunito", "Pointr"]
 }

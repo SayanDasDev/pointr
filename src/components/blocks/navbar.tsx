@@ -3,11 +3,10 @@
 import { useState } from "react";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 import { IconBrandGithub } from "@tabler/icons-react";
 
-import { Icons } from "../icons";
+import LogoWithText from "../logo-with-text";
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -15,7 +14,6 @@ import { cn } from "@/lib/utils";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname();
 
   return (
     <section
@@ -27,8 +25,7 @@ export const Navbar = () => {
       <div className="border-shine w-full rounded-full">
         <div className="flex items-center justify-between px-6 py-3">
           <Link href="/" className="flex shrink-0 items-center gap-1.5">
-            <Icons.Logo className="h-6 w-6" />{" "}
-            <span className="text-xl font-bold">Pointr</span>
+            <LogoWithText />
           </Link>
 
           {/* Desktop Navigation */}
