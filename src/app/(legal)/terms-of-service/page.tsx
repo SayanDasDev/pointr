@@ -13,17 +13,17 @@ export default function TermsOfServicePage() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
-      <h1 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
+      <h1 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900">
         Terms of Service
       </h1>
 
-      <p className="mb-12 text-center text-sm text-gray-500 dark:text-gray-400">
+      <p className="mb-12 text-center text-sm text-gray-500">
         Last updated: {LAST_UPDATE_DATE}
       </p>
 
-      <hr className="border-gray-200 dark:border-gray-800" />
+      <hr className="border-gray-200" />
 
-      <section className="mt-12 space-y-12 leading-relaxed text-gray-700 dark:text-gray-300">
+      <section className="mt-12 space-y-12 leading-relaxed text-gray-700">
         <div className="space-y-4">
           <p>
             Welcome to <strong>Pointr</strong>. These Terms of Service (
@@ -43,7 +43,7 @@ export default function TermsOfServicePage() {
 
         {/* 1. Definitions and Scope */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             1. The Service
           </h2>
           <p className="mb-4">
@@ -70,7 +70,7 @@ export default function TermsOfServicePage() {
 
         {/* 2. Account Registration */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             2. User Accounts & Security
           </h2>
           <p className="mb-4">
@@ -97,7 +97,7 @@ export default function TermsOfServicePage() {
 
         {/* 3. Acceptable Use Policy */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             3. Acceptable Use Policy (AUP)
           </h2>
           <p className="mb-4">
@@ -134,7 +134,7 @@ export default function TermsOfServicePage() {
 
         {/* 4. Intellectual Property & Code Ownership */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             4. Your Code and Intellectual Property
           </h2>
           <p className="mb-4">
@@ -161,10 +161,10 @@ export default function TermsOfServicePage() {
 
         {/* 5. AI Services and Generated Code */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             5. AI Features and Generated Content
           </h2>
-          <h3 className="mt-4 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-4 mb-2 text-lg font-semibold text-gray-900">
             5.1 Ownership of Output
           </h3>
           <p className="mb-2">
@@ -174,7 +174,7 @@ export default function TermsOfServicePage() {
             such output to you.
           </p>
 
-          <h3 className="mt-4 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-4 mb-2 text-lg font-semibold text-gray-900">
             5.2 Accuracy Disclaimer
           </h3>
           <p className="mb-2">
@@ -198,7 +198,7 @@ export default function TermsOfServicePage() {
 
         {/* 6. Payment and Subscription */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             6. Payment and Billing
           </h2>
           <ul className="list-disc space-y-2 pl-6">
@@ -226,7 +226,7 @@ export default function TermsOfServicePage() {
 
         {/* 7. Disclaimers and Warranties */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             7. Disclaimers
           </h2>
           <p className="mb-4 text-xs font-semibold tracking-wider text-gray-500 uppercase">
@@ -244,7 +244,7 @@ export default function TermsOfServicePage() {
 
         {/* 8. Limitation of Liability */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             8. Limitation of Liability
           </h2>
           <p>
@@ -261,7 +261,7 @@ export default function TermsOfServicePage() {
 
         {/* 9. Termination */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             9. Termination
           </h2>
           <p className="mb-4">
@@ -275,7 +275,7 @@ export default function TermsOfServicePage() {
             immediately, and we may delete your data as described in our{" "}
             <Link
               href="/privacy-policy"
-              className="text-blue-600 hover:underline dark:text-blue-400"
+              className="text-blue-600 hover:underline"
             >
               Privacy Policy
             </Link>
@@ -285,7 +285,7 @@ export default function TermsOfServicePage() {
 
         {/* 10. Contact */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             10. Contact Information
           </h2>
           <p className="mb-4">
@@ -296,10 +296,10 @@ export default function TermsOfServicePage() {
             <br />
             Email:{" "}
             <a
-              href="mailto:legal@pointr.dev"
-              className="text-blue-600 hover:underline dark:text-blue-400"
+              href="mailto:legal@pointr.sayandas.co.in"
+              className="text-blue-600 hover:underline"
             >
-              legal@pointr.dev
+              legal@pointr.sayandas.co.in
             </a>
           </address>
         </section>

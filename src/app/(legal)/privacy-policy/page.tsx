@@ -11,17 +11,17 @@ export default function PrivacyPolicyPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
-      <h1 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
+      <h1 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900">
         Privacy Policy
       </h1>
 
-      <p className="mb-12 text-center text-sm text-gray-500 dark:text-gray-400">
+      <p className="mb-12 text-center text-sm text-gray-500">
         Last updated: {LAST_UPDATE_DATE}
       </p>
 
-      <hr className="border-gray-200 dark:border-gray-800" />
+      <hr className="border-gray-200" />
 
-      <section className="mt-12 space-y-12 leading-relaxed text-gray-700 dark:text-gray-300">
+      <section className="mt-12 space-y-12 leading-relaxed text-gray-700">
         <div className="space-y-4">
           <p>
             Pointr (“we”, “our”, or “us”) is committed to protecting the privacy
@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 1. Information We Collect */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             1. Information We Collect
           </h2>
           <p className="mb-4">
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
             environment. This data is categorized as follows:
           </p>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             1.1 Account and Profile Information
           </h3>
           <p className="mb-2">When you register for Pointr, we collect:</p>
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             1.2 User Content (Your Codebase)
           </h3>
           <p className="mb-2">
@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             1.3 AI Interactions and Context
           </h3>
           <p className="mb-2">
@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             1.4 Usage and Telemetry Data
           </h3>
           <p className="mb-2">
@@ -142,14 +142,14 @@ export default function PrivacyPolicyPage() {
 
         {/* 2. How We Use Your Information */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             2. How We Use Your Information
           </h2>
           <p className="mb-4">
             We use your data strictly to deliver and improve the Pointr service.
           </p>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             2.1 Core Service Provision
           </h3>
           <ul className="mb-4 list-disc space-y-1 pl-6">
@@ -168,7 +168,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             2.2 AI Services & Code Privacy
           </h3>
           <p className="mb-2">
@@ -192,7 +192,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 3. AI Subprocessors & Data Flow */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             3. AI Subprocessors & Data Flow
           </h2>
           <p className="mb-4">
@@ -224,7 +224,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 4. Data Storage and Security */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             4. Data Storage and Security
           </h2>
           <p className="mb-4">
@@ -232,7 +232,7 @@ export default function PrivacyPolicyPage() {
             development environment.
           </p>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             4.1 Encryption
           </h3>
           <ul className="mb-4 list-disc space-y-1 pl-6">
@@ -251,7 +251,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+          <h3 className="mt-6 mb-2 text-lg font-semibold text-gray-900">
             4.2 Container Isolation
           </h3>
           <p>
@@ -263,7 +263,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 5. Data Retention */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             5. Data Retention
           </h2>
           <ul className="list-disc space-y-2 pl-6">
@@ -287,7 +287,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 6. Data Sharing */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             6. Data Sharing and Disclosure
           </h2>
           <p className="mb-4">
@@ -313,7 +313,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 7. Cookies and Local Storage */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             7. Cookies and Local Storage
           </h2>
           <p className="mb-4">
@@ -337,7 +337,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 8. Your Rights */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             8. Your Rights
           </h2>
           <p className="mb-4">
@@ -366,7 +366,7 @@ export default function PrivacyPolicyPage() {
 
         {/* 9. Contact Us */}
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
             9. Contact Us
           </h2>
           <p className="mb-4">
@@ -378,10 +378,10 @@ export default function PrivacyPolicyPage() {
             <br />
             Email:{" "}
             <a
-              href="mailto:privacy@pointr.dev"
+              href="mailto:privacy@pointr.sayandas.co.in"
               className="text-blue-600 hover:underline"
             >
-              privacy@pointr.dev
+              privacy@pointr.sayandas.co.in
             </a>
             <br />
             123 Innovation Drive, Suite 400

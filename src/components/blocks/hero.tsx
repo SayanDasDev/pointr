@@ -105,7 +105,7 @@ export const Hero = () => {
       <div className="breakout mx-auto mt-12 hidden max-lg:ml-6 max-lg:h-137.5 max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24 lg:block">
         <div className="relative h-187.5">
           <Image
-            src="/assets/hero.jpg"
+            src="/assets/hero.webp"
             alt="hero"
             fill
             className="rounded-2xl object-cover object-top-left shadow-lg max-lg:rounded-tr-none"
