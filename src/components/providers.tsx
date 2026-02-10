@@ -2,6 +2,7 @@
 
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { Toaster } from "react-hot-toast";
+
 import { ThemeProvider } from "./theme-provider";
 
 // eslint-disable-next-line n/no-process-env
