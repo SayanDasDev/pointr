@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "convex:dev": "pnpm dlx convex dev",
-    "turbo:run": "docker compose up -d && turbo run dev convex:dev --parallel",
-    "email:dev": "email dev -d ./src/emails -p 3001"
+    "email:dev": "email dev -d ./src/emails -p 3001",
+    "turbo:run": "docker compose up -d && turbo run dev convex:dev email:dev --parallel"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
