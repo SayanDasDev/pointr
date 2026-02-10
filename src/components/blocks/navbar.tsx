@@ -3,17 +3,43 @@
 import { useState } from "react";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { IconBrandGithub } from "@tabler/icons-react";
 
 import LogoWithText from "../logo-with-text";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuList,
+} from "../ui/navigation-menu";
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+const ITEMS = [
+  {
+    href: "/about",
+    label: "About",
+  },
+  {
+    href: "/blogs",
+    label: "Blogs",
+  },
+  {
+    href: "/feedback",
+    label: "Feedback",
+  },
+  {
+    href: "/contact",
+    label: "Contact",
+  },
+];
+
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <section
@@ -29,7 +55,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          {/* <NavigationMenu className="max-lg:hidden">
+          <NavigationMenu className="max-lg:hidden">
             <NavigationMenuList>
               {ITEMS.map((link) => (
                 <NavigationMenuItem key={link.label} className="">
@@ -45,7 +71,7 @@ export const Navbar = () => {
                 </NavigationMenuItem>
               ))}
             </NavigationMenuList>
-          </NavigationMenu> */}
+          </NavigationMenu>
 
           {/* Auth Buttons */}
           <div className="flex items-center gap-2.5">
@@ -69,7 +95,7 @@ export const Navbar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <span className="sr-only">Open main menu</span>
-              <div className="absolute top-1/2 left-1/2 block w-[18px] -translate-x-1/2 -translate-y-1/2">
+              <div className="absolute top-1/2 left-1/2 block w-4.5 -translate-x-1/2 -translate-y-1/2">
                 <span
                   aria-hidden="true"
                   className={`absolute block h-0.5 w-full rounded-full bg-current transition duration-500 ease-in-out ${isMenuOpen ? "rotate-45" : "-translate-y-1.5"}`}
@@ -88,7 +114,7 @@ export const Navbar = () => {
         </div>
 
         {/*  Mobile Menu Navigation */}
-        {/* <div
+        <div
           className={cn(
             "bg-background fixed inset-x-0 top-[calc(100%+1rem)] flex flex-col rounded-2xl border p-6 transition-all duration-300 ease-in-out lg:hidden",
             isMenuOpen
@@ -111,7 +137,7 @@ export const Navbar = () => {
               </Link>
             ))}
           </nav>
-        </div> */}
+        </div>
       </div>
     </section>
   );

@@ -6,6 +6,8 @@ export const env = createEnv({
   server: {
     CONVEX_SELF_HOSTED_URL: z.url(),
     CONVEX_SELF_HOSTED_ADMIN_KEY: z.string().min(1),
+    APP_URL: z.url(),
+    RESEND_API_KEY: z.string().min(1),
   },
   // eslint-disable-next-line n/no-process-env
   experimental__runtimeEnv: process.env,

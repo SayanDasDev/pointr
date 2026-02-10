@@ -18,7 +18,7 @@ export const Background = ({
       className={cn(
         "relative mx-2.5 mt-2.5 lg:mx-4",
         variant === "top" &&
-          "from-primary/50 via-background to-background/80 rounded-t-4xl rounded-b-2xl bg-linear-to-b via-20%",
+          "from-muted-foreground/30 via-background/50 to-muted-foreground/10 rounded-t-4xl rounded-b-2xl bg-linear-to-b via-40%",
         variant === "bottom" &&
           "from-background via-background to-primary/50 rounded-t-2xl rounded-b-4xl bg-linear-to-b",
         className,

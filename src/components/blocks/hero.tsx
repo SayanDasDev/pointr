@@ -39,10 +39,10 @@ const features = [
 
 export const Hero = () => {
   return (
-    <section className="content-grid py-28 lg:py-32 lg:pt-44">
+    <section className="content-grid py-8 lg:py-32 lg:pt-44">
       <div className="breakout flex flex-col justify-between gap-8 md:gap-14 lg:flex-row lg:gap-20">
         {/* Left side - Main content */}
-        <div className="flex-1">
+        <div className="flex-1 max-lg:pt-20">
           <h1 className="text-foreground max-w-160 text-3xl font-semibold tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
             Pointr Browser IDE
           </h1>
