@@ -29,6 +29,7 @@ export const Icons = {
         />
         <defs>
           <linearGradient
+            id="paint0_linear_111_13"
             x1="81.5"
             y1="71.5"
             x2="656"
@@ -39,6 +40,7 @@ export const Icons = {
             <stop offset="1" stopColor="#555AE8" />
           </linearGradient>
           <linearGradient
+            id="paint1_linear_111_13"
             x1="580"
             y1="543.5"
             x2="217.5"
@@ -49,6 +51,7 @@ export const Icons = {
             <stop offset="1" stopColor="#BABCFF" />
           </linearGradient>
           <linearGradient
+            id="paint2_linear_111_13"
             x1="364"
             y1="4"
             x2="364"
@@ -74,6 +77,7 @@ export const Icons = {
         ;
         <defs>
           <linearGradient
+            id="paint0_linear_1_18"
             x1="1800.15"
             y1="-342.513"
             x2="1800.15"
